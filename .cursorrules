@@ -1,0 +1,3 @@
+- routes are in src/routes
+- Always create helper class or function to handle the logic. 
+- Make route code clean and readable.
