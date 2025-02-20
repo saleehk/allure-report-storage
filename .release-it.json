@@ -9,14 +9,18 @@
     "commitMessage": "chore: release v${version}",
     "tagName": "v${version}",
     "tagAnnotation": "Release v${version}",
-    "push": false
+    "push": true
   },
   "github": {
     "release": true,
     "releaseName": "Release v${version}"
   },
   "npm": {
-    "publish": true
+    "publish": true,
+    "skipChecks": false,
+    "ignoreVersion": false,
+    "tag": "latest",
+    "access": "public"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
