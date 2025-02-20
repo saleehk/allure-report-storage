@@ -6,7 +6,6 @@
     "strict": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "noEmitOnError": false,
     "types": [
       "node"
     ],
@@ -18,11 +17,5 @@
     "resolveJsonModule": true
   },
   "include": ["src/**/*"],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "**/*.test.ts",
-    "**/*.spec.ts",
-    "storage/**/*"
-  ]
+  "exclude": ["node_modules", "dist"]
 }
